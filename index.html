@@ -6,25 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/3bcbcfd75d.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Express Train</title>
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <img src="img/logo.avif" alt="train logo">
-            <h4>Cri Train</h4>
-        </div>
-        <div class="menu">
-            <a href="#">Home</a>
-            <a href="#">Guide</a>
-            <a href="#">Faq</a>
-            <a href="#">Contact Us</a>
-            <a href="#"><i class="fa-solid fa-ticket"></i>My Booking</a>
-        </div>
-    </header>
-    <h1 id="my_id"></h1>
+    <main>
+        <section>
+            <div class="box">
+                <h3 class="h-50">Quanti Km desidera viaggiare ?</h3>
+                <div class="mini-box h-50">
+                    <h2 id="travelkm" class="bg-violet w-50"></h2>
+                    <h2 class="w-50">km</h2>
+                </div>
+            </div>
 
+            <div class="box">
+                <h3 class="h-50">La tua età</h3>
+                <div class="mini-box h-50">
+                    <h2 id="age" class="bg-violet w-50"></h2>
+                    <h2 class="w-50">Anni</h2>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3 class="h-50">Prezzo totale</h3>
+                <div class="mini-box h-50">
+                    <h2 id="totale" class="bg-violet w-50"></h2>
+                    <h2 class="w-50">€</h2>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3 class="h-50">Sconto del 20% se sei minorenne</h3>
+                <div class="mini-box h-50">
+                    <h2 id="sconto-minori" class="bg-violet w-50"></h2>
+                    <h2 class="w-50">€</h2>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3 class="h-50">Sconto del 60% se sei over 65</h3>
+                <div class="mini-box h-50">
+                    <h2 id="sconto-over60" class="bg-violet w-50"></h2>
+                    <h2 class="w-50">€</h2>
+                </div>
+            </div>
+        </section>
+    </main>
     <script src="main.js"></script>
 </body>
 
