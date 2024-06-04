@@ -18,7 +18,6 @@ console.log("Prezzo per il totale del viaggio", travelPrice);
 if (passengerAge < 18) {
     let percentage = (travelPrice * 20) / 100;
     let discountForMinors = travelPrice - percentage;
-
     console.log("prezzo scontato per minoreni", discountForMinors);
 }
 
@@ -26,6 +25,6 @@ if (passengerAge < 18) {
 if (passengerAge > 65) {
     let percentage = (travelPrice * 40) / 100;
     let discountForOlderAdult = travelPrice - percentage;
-    console.log("prezzo scontato per over 65", discountForOlderAdult);
+    console.log("prezzo scontato per over 65", discountForOlderAdult.toFixed(2) + '€');
 }
 
