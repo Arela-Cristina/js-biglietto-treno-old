@@ -2,7 +2,7 @@
 let numberKm = prompt('How many kilometers do you wan to travel?');
 console.log("Km che desidera viaggiare", numberKm);
 
-// Passenger Age
+// // Passenger Age
 let passengerAge = prompt('You can get a discount, respect of your age. How old are you?');
 console.log("La tua eta", passengerAge);
 
@@ -18,7 +18,7 @@ console.log("Prezzo per il totale del viaggio", travelPrice);
 if (passengerAge < 18) {
     let percentage = (travelPrice * 20) / 100;
     let discountForMinors = travelPrice - percentage;
-    console.log("prezzo scontato per minoreni", discountForMinors);
+    console.log("prezzo scontato per over 65", discountForMinors.toFixed(2) + '€');
 }
 
 // discount if your are Older Adult
